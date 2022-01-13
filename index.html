@@ -6,11 +6,35 @@
     <title>Elements-filter</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" type  = "text/css" href="style.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" >
 </head>
 <body>
     <h1>Simple vanilla-js elements-filter</h1>
+    <!-- Filter-wrapper -->
+    <div class="wrapper">
+        <!-- Buttons-block -->
+        <div class="buttons-block">
+            <button type="button" data-cat="all" class="caterory-btn all"><i class="fas fa-shopping-bag"></i>All</button>
+            <button type="button" data-cat="meat" class="caterory-btn meat"><i class="fas fa-drumstick-bite"></i>Meat</button>
+            <button type="button" data-cat="fruits" class="caterory-btn fruits"><i class="fas fa-apple-alt"></i>Fruits</button>
+            <button type="button" data-cat="dairy-products" class="caterory-btn dairy-products"><i class="fas fa-cheese"></i>Dairy products</button>
+        </div>
+        <!-- Category-block -->
+        <div class="categories-block">
+            <ul class="category-list">
+                <li class="category-item milk">Milk</li>
+                <li class="category-item meat">Pork</li>
+                <li class="category-item milk">Cheese</li>
+                <li class="category-item fruit">Banana</li>
+                <li class="category-item fruit">Apple</li>
+                <li class="category-item meat">Chicken</li>
+                <li class="category-item milk">Butter</li>
+                <li class="category-item meat">Bacon</li>
+            </ul>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
